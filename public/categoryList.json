@@ -1,0 +1,27 @@
+[
+    {
+      "id": 1,
+      "img": "/images/account.jpg",
+      "title": "Account and Finance",
+      "quantity": 120
+    },
+    {
+      "id": 2,
+      "img": "/images/design.jpg",
+      "title": "Creative Design",
+      "quantity": 90
+    },
+    {
+      "id": 3,
+      "img": "/images/marketing.jpg",
+      "title": "Marketing and Sales",
+      "quantity": 180
+    },
+    {
+      "id": 4,
+      "img": "/images/enginnering.jpg",
+      "title": "Engineering Job",
+      "quantity": 220
+    }
+  ]
+  
