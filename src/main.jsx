@@ -16,6 +16,7 @@ import JobDetails from './Components/JobDetails/JobDetails.jsx';
 
 
 
+
 const router = createBrowserRouter([
   {
     path: "/",
@@ -28,6 +29,7 @@ const router = createBrowserRouter([
       {
         path:'/job/:jobId',
         element:<JobDetails></JobDetails>,
+        loader:({params})=>fetch(`jobFeatured.json`)
 
       },
       {

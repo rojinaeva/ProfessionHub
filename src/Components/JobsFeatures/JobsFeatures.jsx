@@ -11,10 +11,7 @@ const JobsFeatures = () => {
         .then(data=>setJobs(data))
     },[])
 
-    const handleViewDetails=(job)=>{
-      console.log(job);
-
-    }
+    
     return (
         <div className='mt-20 bg-current p-12'>
            <div className='text-center mb-8'>
@@ -26,7 +23,7 @@ const JobsFeatures = () => {
                     jobs.map(job=><JobFeatures
                     key={job.id}
                     job={job}
-                    handleViewDetails={handleViewDetails}></JobFeatures>)
+                    ></JobFeatures>)
                 }
             </div>
 
