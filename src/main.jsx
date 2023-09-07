@@ -11,8 +11,10 @@ import Home from './Components/Home/Home.jsx';
 import Statistics from './Components/Statistics/Statistics.jsx';
 import Applied from './Components/Applied/Applied.jsx';
 import Blog from './Components/Blog/Blog.jsx';
-import Contact from './Components/Contact/Contact.jsx';
 import Login from './Components/Login/Login.jsx';
+import JobDetails from './Components/JobDetails/JobDetails.jsx';
+
+
 
 const router = createBrowserRouter([
   {
@@ -22,6 +24,11 @@ const router = createBrowserRouter([
       {
         path:'/',
         element:<Home></Home>
+      },
+      {
+        path:'/job/:jobId',
+        element:<JobDetails></JobDetails>,
+
       },
       {
         path:'/statistics',
@@ -36,13 +43,11 @@ const router = createBrowserRouter([
         element:<Blog></Blog>
       },
       {
-        path:'/contact',
-        element:<Contact></Contact>
-      },
-      {
         path:'/login',
         element:<Login></Login>
       }
+     
+      
     ])
   }
 ]);

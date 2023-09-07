@@ -19,7 +19,6 @@ const Header = () => {
                 <li className='mr-8   text-white text-lg font-bold hover:text-emerald-600'><Link to='/statistics'>Statistics</Link></li>
                 <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><Link to='/applied'>Applied Jobs</Link></li>
                 <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><Link to='/blog'>Blog</Link></li>
-                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><Link to='/contact'>Contact</Link></li>
                 <li className='mr-6  text-white text-lg font-bold hover:text-emerald-600'><Link to='/login'>Login</Link></li>
             </ul>
             <h3 className='text-3xl font-extrabold text-white'>ProfessionHub</h3>

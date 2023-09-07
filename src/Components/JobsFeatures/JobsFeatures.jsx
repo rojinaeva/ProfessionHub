@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import JobFeatures from '../Job-Features/JobFeatures';
 
+
 const JobsFeatures = () => {
     const [jobs,setJobs]=useState([]);
 
@@ -9,6 +10,11 @@ const JobsFeatures = () => {
         .then(res=>res.json())
         .then(data=>setJobs(data))
     },[])
+
+    const handleViewDetails=(job)=>{
+      console.log(job);
+
+    }
     return (
         <div className='mt-20 bg-current p-12'>
            <div className='text-center mb-8'>
@@ -19,7 +25,8 @@ const JobsFeatures = () => {
                 {
                     jobs.map(job=><JobFeatures
                     key={job.id}
-                    job={job}></JobFeatures>)
+                    job={job}
+                    handleViewDetails={handleViewDetails}></JobFeatures>)
                 }
             </div>
 
