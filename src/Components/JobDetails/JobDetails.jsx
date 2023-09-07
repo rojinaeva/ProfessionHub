@@ -15,14 +15,14 @@ const JobDetails = () => {
   return (
         <div className='mt-20 bg-current p-12'>
             <h3 className='text-green-600 text-4xl font-extrabold font-serif text-center mb-8'>Job Details</h3>
-            <div className='grid grid-cols-3 gap-4'>
-                <div className='border border-white col-span-2 p-8'>
+            <div className='md:grid grid-cols-3 gap-4'>
+                <div className=' border border-white col-span-2 p-8'>
                    <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Job Description :  <span className='text-base text-white '>{job_description}</span></p>
                    <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Job Responsibility :  <span className='text-base text-white '>{job_responsibility}</span></p>
                    <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Educational Requirements :  <span className='text-base text-white '>{educational_requirements}</span></p>
                    <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Experience :  <span className='text-base text-white '>{experience}</span></p>
                 </div>
-                <div className='border border-white p-8'>
+                <div className=' border border-white p-8'>
                     <h3  className=' text-3xl text-center text-green-600'>job details</h3>
                     <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Salary :  <span className='text-base text-white '>{salary_range}</span></p>
                     <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Job Title :  <span className='text-base text-white '>{job_position}</span></p>

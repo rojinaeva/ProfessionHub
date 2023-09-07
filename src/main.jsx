@@ -13,6 +13,7 @@ import Applied from './Components/Applied/Applied.jsx';
 import Blog from './Components/Blog/Blog.jsx';
 import Login from './Components/Login/Login.jsx';
 import JobDetails from './Components/JobDetails/JobDetails.jsx';
+import NotFound from './Components/NotFound/NotFound.jsx';
 
 
 
@@ -47,6 +48,10 @@ const router = createBrowserRouter([
       {
         path:'/login',
         element:<Login></Login>
+      },
+      {
+        path:'*',
+        element:<NotFound></NotFound>
       }
      
       
