@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { useLoaderData, useParams } from 'react-router-dom';
+import { Link, useLoaderData, useParams } from 'react-router-dom';
+import { addToDb } from '../../../utilities/fakeDb';
 
 const JobDetails = () => {
     const {jobId}=useParams();
@@ -9,8 +10,14 @@ const JobDetails = () => {
         const jobData=loadedJobsFeatures.find(jobFeatures=>jobFeatures.id===jobId);
         setJob(jobData);
     },[])
+
+
+    const handleAddToCart=(job)=>{
+        addToDb(id);
+       
+    }
   
-   const {job_position,salary_range,job_description,job_responsibility,educational_requirements,experience,phone,email,address}=job;
+   const {id,job_position,salary_range,job_description,job_responsibility,educational_requirements,experience,phone,email,address}=job;
    
   return (
         <div className='mt-20 bg-current p-12'>
@@ -30,7 +37,7 @@ const JobDetails = () => {
                     <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Phone :  <span className='text-base text-white '>{phone}</span></p>
                     <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Email :  <span className='text-base text-white '>{email}</span></p>
                     <p className='mt-2 text-green-600 font-semibold font-serif text-xl'>Address :  <span className='text-base text-white '>{address}</span></p>
-                    <button className='bg-zinc-400 px-16 py-3 rounded-xl font-extrabold text-white text-xl hover:bg-zinc-500 mt-6'>Apply Now</button>
+                 <Link to='/applied'><button onClick={()=>handleAddToCart(job)} className='bg-zinc-400 px-16 py-3 rounded-xl font-extrabold text-white text-xl hover:bg-zinc-500 mt-6'>Apply Now</button></Link>
                 </div>
             </div>
         </div>

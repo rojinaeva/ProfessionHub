@@ -14,7 +14,8 @@
         "experience": "2+ years of software development experience preferred.",
         "phone": "+1-528-896-785",
         "email": "jobs@google.com",
-        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043"
+        "address": "1600 Amphitheatre Parkway, Mountain View, CA 94043",
+        "quantity":0
     },
     {
         "id": "2",
@@ -31,7 +32,8 @@
         "experience": "3+ years of data science experience preferred.",
         "phone": "+1-222-548-7854",
         "email": "jobs@netflix.com",
-        "address": "100 Winchester Circle, Los Gatos, CA 95032"
+        "address": "100 Winchester Circle, Los Gatos, CA 95032",
+        "quantity":0
     },
     {
         "id": "3",
@@ -48,7 +50,8 @@
         "experience": "2+ years of electrical engineering experience preferred.",
         "phone": "+1-222-588-7854",
         "email": "jobs@tesla.com",
-        "address": "3500 Deer Creek Road, Palo Alto, CA 94304"
+        "address": "3500 Deer Creek Road, Palo Alto, CA 94304",
+        "quantity":0
     },
     {
         "id": "4",
@@ -65,7 +68,8 @@
         "experience": "5+ years of product management experience preferred.",
         "phone": "+1-222-548-7854",
         "email": "jobs@microsoft.com",
-        "address": "One Microsoft Way, Redmond, WA 98052"
+        "address": "One Microsoft Way, Redmond, WA 98052",
+        "quantity":0
     },
     {
         "id": "5",
@@ -82,7 +86,8 @@
         "experience": "2+ years of UI/UX design experience preferred.",
         "phone": "+1-222-548-7874",
         "email": "jobs@acmetech.com",
-        "address": "1234 Innovation Drive, San Francisco, CA 94107"
+        "address": "1234 Innovation Drive, San Francisco, CA 94107",
+        "quantity":0
     },
     {
         "id": "6",
@@ -99,7 +104,8 @@
         "experience": "1+ years of data analysis experience preferred.",
         "phone": "+1-222-548-7754",
         "email": "jobs@innovatesolutions.com",
-        "address": "5678 Data Lane, New York, NY 10001"
+        "address": "5678 Data Lane, New York, NY 10001",
+        "quantity":0
     },
     {
         "id": "7",
@@ -116,7 +122,8 @@
         "experience": "3+ years of marketing management experience preferred.",
         "phone": "+1-322-548-7854",
         "email": "jobs@strategicmarketing.com",
-        "address": "9876 Market Street, Chicago, IL 60601"
+        "address": "9876 Market Street, Chicago, IL 60601",
+        "quantity":0
     },
     {
         "id": "8",
@@ -133,7 +140,8 @@
         "experience": "2+ years of front-end development experience preferred.",
         "phone": "+1-228-548-7854",
         "email": "jobs@techinnovators.com",
-        "address": "4321 Tech Drive, Austin, TX 78701"
+        "address": "4321 Tech Drive, Austin, TX 78701",
+        "quantity":0
     },
     {
         "id": "9",
@@ -150,7 +158,8 @@
         "experience": "3+ years of data engineering experience preferred.",
         "phone": "+1-252-548-7854",
         "email": "jobs@securedata.com",
-        "address": "567 Data Security Lane, Seattle, WA 98101"
+        "address": "567 Data Security Lane, Seattle, WA 98101",
+        "quantity":0
     },
     {
         "id": "10",
@@ -167,7 +176,8 @@
         "experience": "2+ years of HR experience preferred.",
         "phone": "+1-222-788-7854",
         "email": "jobs@hrexperts.com",
-        "address": "123 HR Avenue, Denver, CO 80201"
+        "address": "123 HR Avenue, Denver, CO 80201",
+        "quantity":0
     },
     {
         "id": "11",
@@ -184,6 +194,7 @@
         "experience": "1+ years of software development experience preferred.",
         "phone": "+880-178-9755521",
         "email": "jobs@brainstation.bd",
-        "address": "123 Tech Street, Dhaka, Bangladesh"
+        "address": "123 Tech Street, Dhaka, Bangladesh",
+        "quantity":0
     }
 ]

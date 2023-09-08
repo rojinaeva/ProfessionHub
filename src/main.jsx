@@ -14,6 +14,7 @@ import Blog from './Components/Blog/Blog.jsx';
 import Login from './Components/Login/Login.jsx';
 import JobDetails from './Components/JobDetails/JobDetails.jsx';
 import NotFound from './Components/NotFound/NotFound.jsx';
+import loadAppliedJob from '../utilities/loadAppliedJob.js';
 
 
 
@@ -37,9 +38,12 @@ const router = createBrowserRouter([
         path:'/statistics',
         element:<Statistics></Statistics>
       },
+     
       {
         path:'/applied',
-        element:<Applied></Applied>
+        element:<Applied></Applied>,
+        loader:loadAppliedJob
+        
       },
       {
         path:'/blog',
