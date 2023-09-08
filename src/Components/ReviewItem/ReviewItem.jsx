@@ -7,8 +7,6 @@ import { getShoppingCart } from '../../../utilities/fakeDb';
 
 const ReviewItem = (props) => {
     const {id,logo,job_position,company_name,job_type,job_site,job_location,salary_range}=props.appliedItem;
-    const shoppingCart =getShoppingCart()
-    const quantity = shoppingCart[id] || 0;
     return (
         <div className='mt-12 bg-current p-12'>
            <div className='p-4 border border-white rounded-xl'>
@@ -23,7 +21,7 @@ const ReviewItem = (props) => {
            <div className='mt-4'>
                 <p><span className='mr-2'><FontAwesomeIcon className='text-white w-6 h-6' icon={faLocationDot} /></span><span className=' text-gray-300 font-semibold font-serif text-xl'>{job_location}</span></p>
                 <p className='mt-2 mb-4'><span className='mr-2'><FontAwesomeIcon className='text-white w-6 h-6' icon={faDollarSign} /></span><span className=' text-gray-300 font-semibold font-serif text-xl'>Salary : {salary_range}</span></p>
-                <span className='text-white font-serif font-extrabold text-base border border-white px-5 py-2 mr-2'>Applied For This Position : {quantity}
+                <span className='text-white font-serif font-extrabold text-base border border-white px-5 py-2 mr-2'>Applied For This Position : 
                 </span>
                 
            </div>
