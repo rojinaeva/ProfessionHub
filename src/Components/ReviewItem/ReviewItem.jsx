@@ -6,11 +6,12 @@ import { getShoppingCart } from '../../../utilities/fakeDb';
 
 
 const ReviewItem = (props) => {
-    const {id,logo,job_position,company_name,job_type,job_site,job_location,salary_range}=props.appliedItem;
+    const {id,logo,job_position,company_name,job_type,job_site,job_location,salary_range,quantity}=props.appliedItem;
     return (
         <div className='mt-12 bg-current p-12'>
            <div className='p-4 border border-white rounded-xl'>
                <img className='h-48 w-96 rounded-lg mb-4' src={logo} alt="" />
+               <span className='text-white'>Id no :{id}</span>
                 <h3 className='mt-8 text-white text-2xl font-extrabold font-serif'>{job_position}</h3>
                 <p className='mt-2 text-gray-300 font-semibold font-serif text-xl'>{company_name}</p> 
                 <p className=' mt-4 '>
@@ -21,7 +22,7 @@ const ReviewItem = (props) => {
            <div className='mt-4'>
                 <p><span className='mr-2'><FontAwesomeIcon className='text-white w-6 h-6' icon={faLocationDot} /></span><span className=' text-gray-300 font-semibold font-serif text-xl'>{job_location}</span></p>
                 <p className='mt-2 mb-4'><span className='mr-2'><FontAwesomeIcon className='text-white w-6 h-6' icon={faDollarSign} /></span><span className=' text-gray-300 font-semibold font-serif text-xl'>Salary : {salary_range}</span></p>
-                <span className='text-white font-serif font-extrabold text-base border border-white px-5 py-2 mr-2'>Applied For This Position : 
+                <span className='text-white font-serif font-extrabold text-base border border-white px-5 py-2 mr-2'>Applied For This Position : {quantity} 
                 </span>
                 
            </div>
