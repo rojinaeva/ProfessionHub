@@ -11,7 +11,7 @@ const ReviewItem = (props) => {
         <div className='mt-12 bg-current p-12'>
            <div className='p-4 border border-white rounded-xl'>
                <img className='h-48 w-96 rounded-lg mb-4' src={logo} alt="" />
-               <span className='text-white'>Id no :{id}</span>
+               {/* <span className='text-white'>Id no :{id}</span> */}
                 <h3 className='mt-8 text-white text-2xl font-extrabold font-serif'>{job_position}</h3>
                 <p className='mt-2 text-gray-300 font-semibold font-serif text-xl'>{company_name}</p> 
                 <p className=' mt-4 '>

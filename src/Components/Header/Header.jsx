@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Bars3Icon,XMarkIcon } from '@heroicons/react/24/solid'
+import ActiveLink from '../ActiveLink/ActiveLink';
 
 const Header = () => {
     const [open,setOpen]=useState(false);
@@ -15,11 +16,11 @@ const Header = () => {
                         }
             </div>
            <ul className={`md:flex md:static bg-current absolute ${open?'top-12':'-top-48'}`}>
-                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><Link to='/'>Home</Link></li>
-                <li className='mr-8   text-white text-lg font-bold hover:text-emerald-600'><Link to='/statistics'>Statistics</Link></li>
-                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><Link to='/applied'>Applied Jobs</Link></li>
-                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><Link to='/blog'>Blog</Link></li>
-                <li className='mr-6  text-white text-lg font-bold hover:text-emerald-600'><Link to='/login'>Login</Link></li>
+                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/'>Home</ActiveLink></li>
+                <li className='mr-8   text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/statistics'>Statistics</ActiveLink></li>
+                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/applied'>Applied Jobs</ActiveLink></li>
+                <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/blog'>Blog</ActiveLink></li>
+                <li className='mr-6  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/login'>Login</ActiveLink></li>
             </ul>
             <h3 className='text-3xl font-extrabold text-white'>ProfessionHub</h3>
             <button className='bg-zinc-400 px-3 py-3 rounded-xl font-extrabold text-white text-xl hover:bg-zinc-500'>Start Applying</button>
