@@ -8,7 +8,7 @@ import { getShoppingCart } from '../../../utilities/fakeDb';
 const ReviewItem = (props) => {
     const {id,logo,job_position,company_name,job_type,job_site,job_location,salary_range,quantity}=props.appliedItem;
     return (
-        <div className='mt-12 bg-current p-12'>
+        <div className='mt-20 bg-current p-4'>
            <div className='p-4 border border-white rounded-xl'>
                <img className='h-48 w-96 rounded-lg mb-4' src={logo} alt="" />
                {/* <span className='text-white'>Id no :{id}</span> */}

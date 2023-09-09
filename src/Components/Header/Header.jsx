@@ -15,7 +15,7 @@ const Header = () => {
                             </span>)
                         }
             </div>
-           <ul className={`md:flex md:static bg-current absolute ${open?'top-12':'-top-48'}`}>
+           <ul className={`md:flex md:static bg-current absolute ${open?'top-16':'-top-48'}`}>
                 <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/'>Home</ActiveLink></li>
                 <li className='mr-8   text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/statistics'>Statistics</ActiveLink></li>
                 <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/applied'>Applied Jobs</ActiveLink></li>

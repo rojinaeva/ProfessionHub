@@ -1,5 +1,5 @@
 import React from 'react';
-import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
+import { AreaChart, Area, XAxis, YAxis, CartesianGrid, Tooltip } from 'recharts';
 
 const Statistics = () => {
     const data = [
@@ -53,7 +53,7 @@ const Statistics = () => {
           height={600}
           data={data}
           margin={{
-            top: 90,
+            top: 200,
             right: 30,
             left: 30,
             bottom: 10,

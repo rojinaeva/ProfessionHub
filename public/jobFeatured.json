@@ -1,7 +1,7 @@
 [
     {
         "id": "1",
-        "logo": "../images/google.jpg",
+        "logo": "https://i.ibb.co/sycNQM3/google.jpg",
         "job_position": "Software Engineer",
         "company_name": "Google",
         "job_type": "Full-Time",
@@ -19,7 +19,7 @@
     },
     {
         "id": "2",
-        "logo": "../images/netflix.png",
+        "logo": "https://i.ibb.co/rQdTsBB/netflix.png",
         "job_position": "Data Scientist",
         "company_name": "Netflix",
         "job_type": "Full-Time",
@@ -37,7 +37,7 @@
     },
     {
         "id": "3",
-        "logo": "../images/tesla.jpg",
+        "logo": "https://i.ibb.co/prBzWBS/tesla.jpg",
         "job_position": "Electrical Engineer",
         "company_name": "Tesla, Inc.",
         "job_type": "Full-Time",
@@ -55,7 +55,7 @@
     },
     {
         "id": "4",
-        "logo": "../images/micosoft.jpg",
+        "logo": "https://i.ibb.co/P6qxkq9/micosoft.jpg",
         "job_position": "Product Manager",
         "company_name": "Microsoft",
         "job_type": "Full-Time",
@@ -73,7 +73,7 @@
     },
     {
         "id": "5",
-        "logo": "../images/acme.png",
+        "logo": "https://i.ibb.co/JBj6zMQ/acme.png",
         "job_position": "UI/UX Designer",
         "company_name": "Acme Technologies",
         "job_type": "Full-Time",
@@ -91,7 +91,7 @@
     },
     {
         "id": "6",
-        "logo": "../images/iinovative-solutions.png",
+        "logo": "https://i.ibb.co/F87y9LZ/iinovative-solutions.png",
         "job_position": "Data Analyst",
         "company_name": "Innovate Solutions",
         "job_type": "Full-Time",
@@ -109,7 +109,7 @@
     },
     {
         "id": "7",
-        "logo": "../images/strategic-marketing.png",
+        "logo": "https://i.ibb.co/3ywsKL2/strategic-marketing.png",
         "job_position": "Marketing Manager",
         "company_name": "Strategic Marketing Solutions",
         "job_type": "Full-Time",
@@ -127,7 +127,7 @@
     },
     {
         "id": "8",
-        "logo": "../images/tech-innovators.png",
+        "logo": "https://i.ibb.co/7NjWLbc/tech-innovators.png",
         "job_position": "Front-End Developer",
         "company_name": "Tech Innovators",
         "job_type": "Full-Time",
@@ -145,7 +145,7 @@
     },
     {
         "id": "9",
-        "logo": "../images/secure data.png",
+        "logo": "https://i.ibb.co/88f28GY/secure-data.png",
         "job_position": "Data Engineer",
         "company_name": "Secure Data Solutions",
         "job_type": "Full-Time",
@@ -163,7 +163,7 @@
     },
     {
         "id": "10",
-        "logo": "../images/Human resource.png",
+        "logo": "https://i.ibb.co/9nDkstR/Human-resource.png",
         "job_position": "HR Specialist",
         "company_name": "Human Resources Experts",
         "job_type": "Full-Time",
@@ -181,7 +181,7 @@
     },
     {
         "id": "11",
-        "logo": "../images/brainstation.png",
+        "logo": "https://i.ibb.co/0JK8fcV/brainstation.png",
         "job_position": "Software Developer",
         "company_name": "BrainStation",
         "job_type": "Full-Time",
