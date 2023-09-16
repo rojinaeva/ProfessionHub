@@ -15,8 +15,7 @@ import Login from './Components/Login/Login.jsx';
 import JobDetails from './Components/JobDetails/JobDetails.jsx';
 import NotFound from './Components/NotFound/NotFound.jsx';
 import loadAppliedJob from '../utilities/loadAppliedJob.js';
-
-
+import Signup from './Components/Signup/Signup.jsx';
 
 
 const router = createBrowserRouter([
@@ -48,6 +47,10 @@ const router = createBrowserRouter([
       {
         path:'/blog',
         element:<Blog></Blog>
+      },
+      {
+        path:'/signup',
+        element:<Signup></Signup>
       },
       {
         path:'/login',

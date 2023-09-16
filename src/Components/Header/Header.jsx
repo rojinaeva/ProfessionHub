@@ -21,6 +21,9 @@ const Header = () => {
                 <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/applied'>Applied Jobs</ActiveLink></li>
                 <li className='mr-8  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/blog'>Blog</ActiveLink></li>
                 <li className='mr-6  text-white text-lg font-bold hover:text-emerald-600'><ActiveLink to='/login'>Login</ActiveLink></li>
+               
+              
+                
             </ul>
             <h3 className='text-3xl font-extrabold text-white'>ProfessionHub</h3>
             <button className='bg-zinc-400 px-3 py-3 rounded-xl font-extrabold text-white text-xl hover:bg-zinc-500'>Start Applying</button>
